@@ -1,0 +1,94 @@
+/*---General---*/
+*{
+    font-size: 1em;
+    font-family: trajan-pro;
+    margin: 0 auto;
+    color: black;
+}
+/*---Flex Box--*/
+
+/*--Links(Saved if needed)--*/
+/*
+.link:link{
+    color: #d1d93b;
+}
+.link:visited{
+    color: #5c0c51;
+}
+.link:hover{
+    color: #8300FF;
+}
+*/
+/*---Style---*/
+
+/*---Background---*/
+body
+{
+    background-image: url(Assets/Background.png);
+    background-repeat: repeat;
+    background-size: 8vh, 8vh;           
+}
+/*---Logo---*/
+.logo
+{
+    width: 100%;/* Set a specific width */
+    background-color: #484848 ; /* Dark-grey background */
+}
+
+.logo a
+{
+    display: block; /* Keeps it centered */
+    text-align: center; /* Center-align text */
+    /* Add transition for hover effects */
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+/*---Nav---*/
+nav
+{
+    list-style-type: none;
+}
+
+li
+{
+    float: left;
+    display: block;
+    text-decoration: none;
+    font-size: 1.5em;
+    transition: box-shadow 0.3s ease-in-out
+}
+li a
+{
+    display: block;
+    width: 20vw;
+    text-align: center;
+    background-color: #6B6859;
+}
+.chosen
+{
+    background-image: azure;
+}
+/*---Body---*/
+.Main{
+    width: 80%;
+    height: 100%;
+    background-color: #6B6859;
+}
+
+/*-Hover action-*/
+.logo a:hover
+{   
+    box-shadow: 0 0 5vw rgba(255,255,255,0.5) inset; /* Add a hover color */
+    border-color: #FFFFFF;
+}
+li :hover
+{
+    box-shadow: 0 0 100% rgba(255,255,255,1) inset
+}
+/*---Mobile---*/
+@media only screen and (max-width: 768px)
+{
+    
+}
+/*---Tablet---*/
+/*---Desktop---*/
