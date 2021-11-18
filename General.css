@@ -31,8 +31,9 @@ body
 /*---Logo---*/
 .logo
 {
-    width: 100%; /* Set a specific width */
-    background-color: #484848 ; /* Dark-grey background */
+    width: 100vw; /* Set a specific width */
+    height: 8vh; /* Set a specific height */
+    background-color: #484848; /* Dark-grey background */
 }
 
 .logo a
@@ -46,7 +47,6 @@ body
 nav
 {
     list-style-type: none;
-    float: left;
     display: block;
     text-decoration: none;
     font-size: 1.5em;
@@ -56,6 +56,8 @@ nav a
 {
     display: block;
     width: 25vw;
+    height: 7vh;
+    float: left;
     text-align: center;
     background-color: #6B6859;
 }
@@ -65,9 +67,7 @@ nav a
 }
 /*---Body---*/
 .main{
-    width: 80%;
-    height: 100%;
-    background-color: #6B6859;
+    
 }
 
 /*--- Hover action ---*/
@@ -78,7 +78,7 @@ nav a
 }
 li:hover
 {
-    box-shadow: 0 0 100% rgba(255,255,255,1) inset
+    box-shadow: 0 0 100% rgba(255,255,255,1) inset;
 }
 /*---Mobile---*/
     /*(landscape)*/
@@ -90,25 +90,11 @@ li:hover
     @media only screen and (max-width : 320px)
     {
         /*--- Center content ---*/
-        .flex-container
+        .content
         {
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-        header
-        {
-            background-color: #3F51B5;
-            color: #fff;
-        } 
-        section.content
-        {
-            flex: 1;
-        } 
-        footer
-        {
-            background-color: #FFC107;
-            color: #333;
+            width: 80vw;
+            height: 85vh;
+            background-color: #6B6859;
         }
     }
 /*---Tablet---*/
