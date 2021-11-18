@@ -39,34 +39,25 @@ body
 {
     display: block; /* Keeps it centered */
     text-align: center; /* Center-align text */
-    /* Add transition for hover effects */
-    transition: box-shadow 0.3s ease-in-out;
+    transition: box-shadow 0.3s ease-in-out; /* Add transition for hover effects */
 }
 
 /*---Nav---*/
 nav
 {
     list-style-type: none;
-}
-
-li
-{
     float: left;
     display: block;
     text-decoration: none;
     font-size: 1.5em;
-    transition: box-shadow 0.3s ease-in-out
+    transition: box-shadow 0.3s ease-in-out;
 }
-li a
+nav a
 {
     display: block;
     width: 25vw;
     text-align: center;
     background-color: #6B6859;
-}
-.chosen
-{
-    background-image: azure;
 }
 /*---Body---*/
 .main{
