@@ -1,7 +1,3 @@
-# Some-Website-shit
-(idfk, im still learning this shit)
+# Peppy's website
 
-This is gonna become my personal website
-
-By peppy10003
-Age: 3
+Created by Peppy. Forked by WillTheDeveloper.
