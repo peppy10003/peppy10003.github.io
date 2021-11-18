@@ -31,7 +31,7 @@ body
 /*---Logo---*/
 .logo
 {
-    width: 100%;/* Set a specific width */
+    width: 100%; /* Set a specific width */
     background-color: #484848 ; /* Dark-grey background */
 }
 
@@ -75,20 +75,56 @@ li a
     background-color: #6B6859;
 }
 
-/*-Hover action-*/
+/*--- Hover action ---*/
 .logo a:hover
 {   
     box-shadow: 0 0 5vw rgba(255,255,255,0.5) inset; /* Add a hover color */
     border-color: #FFFFFF;
 }
-li :hover
+li:hover
 {
     box-shadow: 0 0 100% rgba(255,255,255,1) inset
 }
 /*---Mobile---*/
-@media only screen and (max-width: 768px)
-{
-    
-}
+    /*(landscape)*/
+    @media only screen and (min-width : 321px)
+    {
+        /* Styles */
+    }
+    /*portrait*/
+    @media only screen and (max-width : 320px)
+    {
+        /*--- Center content ---*/
+        .flex-container
+        {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header
+        {
+            background-color: #3F51B5;
+            color: #fff;
+        } 
+        section.content
+        {
+            flex: 1;
+        } 
+        footer
+        {
+            background-color: #FFC107;
+            color: #333;
+        }
+    }
 /*---Tablet---*/
-/*---Desktop---*/
+    /*--- landscape ---*/
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)
+    {
+
+    }
+    /*--- portrait ---*/
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait)
+    {
+        
+    }
+/*--- Desktop ---*/
