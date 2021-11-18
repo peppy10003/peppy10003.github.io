@@ -1,3 +1,3 @@
 # Peppy's website
 
-Created by Peppy. Forked by WillTheDeveloper.
+Created by Peppy.
