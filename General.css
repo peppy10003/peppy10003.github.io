@@ -60,7 +60,7 @@ li
 li a
 {
     display: block;
-    width: 20vw;
+    width: 25vw;
     text-align: center;
     background-color: #6B6859;
 }
@@ -69,7 +69,7 @@ li a
     background-image: azure;
 }
 /*---Body---*/
-.Main{
+.main{
     width: 80%;
     height: 100%;
     background-color: #6B6859;
