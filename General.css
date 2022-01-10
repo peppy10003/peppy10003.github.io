@@ -68,7 +68,10 @@ nav a
 /*--- Body ---*/
 .content
 {
-    
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 100%;
+    background-color: aqua;
 }
 /*--- Footer ---*/
 footer a
@@ -78,7 +81,6 @@ footer a
     bottom: 0;
     width: 100%;
     background-color: #6B6859;
-    color: white;
     text-align: center;
  }
 /*--- Hover action ---*/
