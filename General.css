@@ -68,13 +68,14 @@ nav a
 /*--- Body ---*/
 .content
 {
-    padding-left: 5%;
-    padding-right: 5%;
-    height: 100%;
+    display: flex;
+    width: 80vw;
+    margin: 0 auto;
+    height: 20vh;
     background-color: aqua;
 }
 /*--- Footer ---*/
-footer
+footer a
 {
     position: fixed;
     left: 0;
@@ -93,6 +94,15 @@ li:hover
 {
     box-shadow: 0 0 100% rgba(255,255,255,1) inset;
 }
+
+/*.dflex
+{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+look into it
+*/
 /*--- Mobile ---*/
     /*(landscape)*/
     @media only screen and (min-width : 321px)
