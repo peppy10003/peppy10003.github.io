@@ -1,13 +1,13 @@
-/*---General---*/
+/*--- General ---*/
 *{
     font-size: 1em;
     font-family: trajan-pro;
     margin: 0 auto;
     color: black;
 }
-/*---Flex Box--*/
+/*--- Flex Box --*/
 
-/*--Links(Saved if needed)--*/
+/*--- Links(Saved if needed) ---*/
 /*
 .link:link{
     color: #d1d93b;
@@ -19,16 +19,16 @@
     color: #8300FF;
 }
 */
-/*---Style---*/
+/*--- Style ---*/
 
-/*---Background---*/
+/*--- Background ---*/
 body
 {
     background-image: url(Assets/Background.png);
     background-repeat: repeat;
     background-size: 8vh, 8vh;           
 }
-/*---Logo---*/
+/*--- Logo ---*/
 .logo
 {
     width: 100vw; /* Set a specific width */
@@ -43,7 +43,7 @@ body
     transition: box-shadow 0.3s ease-in-out; /* Add transition for hover effects */
 }
 
-/*---Nav---*/
+/*--- Nav ---*/
 nav
 {
     list-style-type: none;
@@ -65,12 +65,22 @@ nav a
 {
     background-image: azure;
 }
-/*---Body---*/
+/*--- Body ---*/
 .content
 {
     
 }
-
+/*--- Footer ---*/
+footer
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #6B6859;
+    color: white;
+    text-align: center;
+ }
 /*--- Hover action ---*/
 .logo a:hover
 {   
@@ -81,7 +91,7 @@ li:hover
 {
     box-shadow: 0 0 100% rgba(255,255,255,1) inset;
 }
-/*---Mobile---*/
+/*--- Mobile ---*/
     /*(landscape)*/
     @media only screen and (min-width : 321px)
     {
@@ -98,7 +108,7 @@ li:hover
             background-color: #6B6859;
         }
     }
-/*---Tablet---*/
+/*--- Tablet ---*/
     /*--- landscape ---*/
     @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)
     {
