@@ -64,7 +64,6 @@ body
 {
     width: 80vw;
     margin: 0 auto;
-    height: 20vh;
     background-color: aqua;
     display: block;
 }
@@ -76,7 +75,7 @@ main div
     padding-bottom: 10px;
 }
 /*--- Footer ---*/
-footer
+.details
 {
     left: 0;
     bottom: 0;
